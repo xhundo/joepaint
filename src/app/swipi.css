@@ -28,6 +28,7 @@ button {
 @media screen and (max-width: 1020px) {
   .dots-wrapper {
     margin: 0 0 60px 0;
+    gap: 18px;
   }
 }
 
