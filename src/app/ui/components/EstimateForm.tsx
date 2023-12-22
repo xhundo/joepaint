@@ -163,7 +163,7 @@ export const EstimateForm = () => {
         ></textarea>
         {error?.message && (
           <span className="error-message absolute text-red-700 lg:top-[372px]">
-            {error.message[0]}
+            {error?.message[0]}
           </span>
         )}
       </section>
