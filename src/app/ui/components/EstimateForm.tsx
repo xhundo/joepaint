@@ -51,7 +51,7 @@ export const EstimateForm = () => {
           type="text"
           className={`relative text-black placeholder:text-black ${
             error?.first ? "border-red-700" : "border-black"
-          } first-sm name-label-sm h-[21px] w-[318px] border-[1px] border-black px-[5px] py-[2px] font-normal md:h-[36px] md:w-[266px] md:px-[10px] md:py-[5px] md:text-xs md:placeholder:text-xs lg:h-[70px] lg:w-[515px] lg:px-5 lg:py-[10px] lg:text-lg lg:placeholder:text-lg`}
+          } first-sm name-label-sm h-[21px] w-[318px] rounded-none border-[1px] border-black px-[5px] py-[2px] font-normal md:h-[36px] md:w-[266px] md:px-[10px] md:py-[5px] md:text-xs md:placeholder:text-xs lg:h-[70px] lg:w-[515px] lg:px-5 lg:py-[10px] lg:text-lg lg:placeholder:text-lg`}
           name="name"
           ref={first}
           id="name"
@@ -72,7 +72,7 @@ export const EstimateForm = () => {
           type="text"
           className={`relative text-black placeholder:text-[6px] placeholder:text-black md:placeholder:text-xs lg:placeholder:text-lg ${
             error?.last ? "border-red-700" : "border-black"
-          }  name-label-sm last-sm h-[21px] w-[318px] border-[1px] py-[10px] pl-[20px] font-normal md:h-[36px] md:w-[266px] md:text-xs lg:h-[70px] lg:w-[515px]  lg:px-5  lg:py-[10px]  lg:text-lg`}
+          }  name-label-sm last-sm h-[21px] w-[318px] rounded-none border-[1px] py-[10px] pl-[20px] font-normal md:h-[36px] md:w-[266px] md:text-xs lg:h-[70px] lg:w-[515px]  lg:px-5  lg:py-[10px]  lg:text-lg`}
           name="last"
           ref={last}
           id="last"
@@ -95,7 +95,7 @@ export const EstimateForm = () => {
           type="email"
           className={`text-black placeholder:text-black ${
             error?.email ? "border-red-700" : "border-black"
-          } email-sm relative border-[1px] md:h-[36px] md:w-[266px] md:pl-[10px] md:text-xs  lg:h-[70px] lg:w-[515px] lg:px-5 lg:py-[10px] lg:text-lg`}
+          } email-sm relative rounded-none border-[1px] md:h-[36px] md:w-[266px] md:pl-[10px] md:text-xs  lg:h-[70px] lg:w-[515px] lg:px-5 lg:py-[10px] lg:text-lg`}
           ref={email}
           name="email"
           id="email"
@@ -115,7 +115,7 @@ export const EstimateForm = () => {
           type="tel"
           className={`relative text-black placeholder:text-black ${
             error?.phone ? "border-red-700" : "border-black"
-          } phone-sm border-[1px] md:h-[36px] md:w-[266px] md:pl-[10px] md:text-xs lg:h-[70px] lg:w-[515px] lg:px-5 lg:py-[10px]  lg:text-lg`}
+          } phone-sm rounded-none border-[1px] md:h-[36px] md:w-[266px] md:pl-[10px] md:text-xs lg:h-[70px] lg:w-[515px] lg:px-5 lg:py-[10px]  lg:text-lg`}
           name="phone"
           ref={phone}
           id="phone"
@@ -137,7 +137,7 @@ export const EstimateForm = () => {
           type="text"
           className={`relative text-black placeholder:text-black ${
             error?.subject ? "border-red-700" : "border-black"
-          } subject-sm max-w-full border-[1px] px-[10px] py-[5px] md:h-[36px] md:text-xs lg:h-[70px] lg:px-5 lg:py-[10px] lg:text-lg`}
+          } subject-sm max-w-full rounded-none border-[1px] px-[10px] py-[5px] md:h-[36px] md:text-xs lg:h-[70px] lg:px-5 lg:py-[10px] lg:text-lg`}
           name="subject"
           ref={subject}
           id="subject"
@@ -156,7 +156,7 @@ export const EstimateForm = () => {
         <textarea
           className={`relative text-black placeholder:text-black md:h-[116px] lg:h-[245px] ${
             error?.message ? "border-red-700" : "border-black"
-          } message-sm max-w-full border-[1px] px-5 py-[10px] md:text-xs lg:text-lg`}
+          } message-sm max-w-full rounded-none border-[1px] px-5 py-[10px] md:text-xs lg:text-lg`}
           name="message"
           ref={message}
           id="message"
